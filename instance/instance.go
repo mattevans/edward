@@ -16,11 +16,11 @@ import (
 
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
-	"github.com/yext/edward/commandline"
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
+	"github.com/mattevans/edward/commandline"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
 )
 
 // Instance provides state and functions for managing a service

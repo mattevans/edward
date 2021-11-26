@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/theothertomelliott/must"
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/fake"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/fake"
 )
 
 func TestLoad(t *testing.T) {

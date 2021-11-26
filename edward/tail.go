@@ -6,8 +6,8 @@ import (
 
 	"github.com/hpcloud/tail"
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance/servicelogs"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/instance/servicelogs"
+	"github.com/mattevans/edward/services"
 )
 
 type byTime []servicelogs.LogLine

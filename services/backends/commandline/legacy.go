@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 type LegacyUnmarshaler struct{}

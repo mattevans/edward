@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/theothertomelliott/gopsutil-nocgo/net"
-	"github.com/theothertomelliott/gopsutil-nocgo/process"
-	"github.com/yext/edward/commandline"
-	"github.com/yext/edward/services"
+	"github.com/shirou/gopsutil/net"
+	"github.com/shirou/gopsutil/process"
+	"github.com/mattevans/edward/commandline"
+	"github.com/mattevans/edward/services"
 )
 
 type buildandrun struct {

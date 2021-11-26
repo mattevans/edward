@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/instance/processes"
-	"github.com/yext/edward/instance/servicelogs"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
-	"github.com/yext/edward/warmup"
-	"github.com/yext/edward/worker"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/instance/processes"
+	"github.com/mattevans/edward/instance/servicelogs"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
+	"github.com/mattevans/edward/warmup"
+	"github.com/mattevans/edward/worker"
 )
 
 // Launch launches this service

@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/yext/edward/runner"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/runner"
+	"github.com/mattevans/edward/services"
 )
 
 // runCmd represents the run command

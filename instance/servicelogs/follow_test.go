@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yext/edward/instance/servicelogs"
+	"github.com/mattevans/edward/instance/servicelogs"
 )
 
 func TestFollowLogsExisting(t *testing.T) {

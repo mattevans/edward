@@ -1,7 +1,7 @@
 # Edward
 
-![Tests](https://github.com/yext/edward/workflows/Test/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yext/edward)](https://goreportcard.com/report/github.com/yext/edward)
+![Tests](https://github.com/mattevans/edward/workflows/Test/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mattevans/edward)](https://goreportcard.com/report/github.com/mattevans/edward)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/yext-edward/Lobby)
 
 A command line tool for managing local instances of microservices.
@@ -10,10 +10,10 @@ A command line tool for managing local instances of microservices.
 
 Full documentation available at [http://engblog.yext.com/edward/](http://engblog.yext.com/edward/).
 
-## Table of Contents  
+## Table of Contents
 
 * [Features](#features)
-* [Installation](#installation)  
+* [Installation](#installation)
 * [Updating](#updating)
 
 ## Features
@@ -71,10 +71,10 @@ service that can be built and started from the command line.
 
 Edward requires Mac OS or Linux and Go 1.7 or higher.
 
-    go get github.com/yext/edward
+    go get github.com/mattevans/edward
 
 ## Updating
 
 To update an existing install to the latest version of Edward, run:
 
-    go get -u github.com/yext/edward
+    go get -u github.com/mattevans/edward

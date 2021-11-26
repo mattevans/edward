@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/theothertomelliott/gopsutil-nocgo/net"
-	"github.com/theothertomelliott/gopsutil-nocgo/process"
-	"github.com/yext/edward/instance"
+	"github.com/shirou/gopsutil/net"
+	"github.com/shirou/gopsutil/process"
+	"github.com/mattevans/edward/instance"
 )
 
 // waitUntilLive blocks until a command running the specified service is in the RUNNING state.

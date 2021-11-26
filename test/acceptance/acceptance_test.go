@@ -38,7 +38,7 @@ func TestMain(m *testing.M) {
 
 	edwardExecutable = path.Join(buildDir, "edward")
 
-	cmd := exec.Command("go", "build", "-o", edwardExecutable, "github.com/yext/edward")
+	cmd := exec.Command("go", "build", "-o", edwardExecutable, "github.com/mattevans/edward")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err = cmd.Run()

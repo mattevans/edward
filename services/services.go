@@ -2,7 +2,7 @@ package services
 
 import (
 	"github.com/pkg/errors"
-	"github.com/yext/edward/tracker"
+	"github.com/mattevans/edward/tracker"
 )
 
 // OperationConfig provides additional configuration for an operation

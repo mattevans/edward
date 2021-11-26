@@ -5,12 +5,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/instance/servicelogs"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/instance/servicelogs"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/services"
 )
 
 func (c *Client) Log(names []string, cancelChannel <-chan struct{}) error {

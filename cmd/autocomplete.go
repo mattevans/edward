@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/config"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/config"
 )
 
 func autocompleteServicesAndGroups(homeDir string, arg string) {

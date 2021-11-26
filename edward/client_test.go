@@ -11,12 +11,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/theothertomelliott/gopsutil-nocgo/process"
-	"github.com/yext/edward/edward"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/commandline"
-	"github.com/yext/edward/tracker"
+	"github.com/shirou/gopsutil/process"
+	"github.com/mattevans/edward/edward"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/commandline"
+	"github.com/mattevans/edward/tracker"
 )
 
 // Path to the Edward executable as built
@@ -31,7 +31,7 @@ func TestMain(m *testing.M) {
 
 	edwardExecutable = path.Join(buildDir, "edward")
 
-	cmd := exec.Command("go", "build", "-o", edwardExecutable, "github.com/yext/edward")
+	cmd := exec.Command("go", "build", "-o", edwardExecutable, "github.com/mattevans/edward")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err = cmd.Run()

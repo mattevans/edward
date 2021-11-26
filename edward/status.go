@@ -2,10 +2,10 @@ package edward
 
 import (
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/instance/processes"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/ui"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/instance/processes"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/ui"
 )
 
 func (c *Client) Status(names []string, all bool) error {

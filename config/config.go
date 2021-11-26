@@ -14,7 +14,7 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/pkg/errors"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 // Config defines the structure for the Edward project configuration file

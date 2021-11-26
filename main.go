@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/yext/edward/cmd"
+	"github.com/mattevans/edward/cmd"
 )
 
 func main() {

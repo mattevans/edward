@@ -17,7 +17,7 @@ unit:
 	go test -timeout 3m -race -cover -count 1 $(PKGS)
 
 acceptance:
-	go test -timeout 3m -race -cover -count 1 github.com/yext/edward/test/acceptance -edward.acceptance 
+	go test -timeout 3m -race -cover -count 1 github.com/mattevans/edward/test/acceptance -edward.acceptance
 
 docs:
 	cd docs_src && hugo

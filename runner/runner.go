@@ -10,10 +10,10 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/pkg/errors"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/instance/processes"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/instance/processes"
+	"github.com/mattevans/edward/services"
 )
 
 // Runner provides state and functions for running a given service

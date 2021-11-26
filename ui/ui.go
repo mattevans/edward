@@ -1,9 +1,9 @@
 package ui
 
 import (
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/instance/servicelogs"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/instance/servicelogs"
+	"github.com/mattevans/edward/services"
 )
 
 type Provider interface {

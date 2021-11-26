@@ -9,10 +9,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/home"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/home"
 
-	"github.com/yext/edward/edward"
+	"github.com/mattevans/edward/edward"
 )
 
 func createClient(configFile, testName, testPath string) (*edward.Client, string, func(), error) {

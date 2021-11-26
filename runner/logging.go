@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance/servicelogs"
+	"github.com/mattevans/edward/instance/servicelogs"
 )
 
 // Log provides the io.Writer interface to publish service logs to file

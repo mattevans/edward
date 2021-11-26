@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/instance/processes"
-	"github.com/yext/edward/instance/servicelogs"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/instance/processes"
+	"github.com/mattevans/edward/instance/servicelogs"
+	"github.com/mattevans/edward/services"
 )
 
 // TipLog outputs the last few log lines for each service
