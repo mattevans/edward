@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yext/edward/ui"
+	"github.com/mattevans/edward/ui"
 )
 
 var _ ui.Provider = &Provider{}

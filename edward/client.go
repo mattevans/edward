@@ -5,15 +5,15 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/builder"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/output"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
-	"github.com/yext/edward/ui"
-	"github.com/yext/edward/ui/terminal"
-	"github.com/yext/edward/worker"
+	"github.com/mattevans/edward/builder"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/output"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
+	"github.com/mattevans/edward/ui"
+	"github.com/mattevans/edward/ui/terminal"
+	"github.com/mattevans/edward/worker"
 )
 
 type Client struct {

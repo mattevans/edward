@@ -4,12 +4,12 @@ import (
 	"sort"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/builder"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/instance/processes"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
-	"github.com/yext/edward/worker"
+	"github.com/mattevans/edward/builder"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/instance/processes"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
+	"github.com/mattevans/edward/worker"
 )
 
 func (c *Client) Restart(names []string, force bool, skipBuild bool, noWatch bool, exclude []string) error {

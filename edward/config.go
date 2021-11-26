@@ -5,8 +5,8 @@ import (
 	"sort"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/config"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/config"
+	"github.com/mattevans/edward/services"
 )
 
 // LoadConfig loads an Edward project config into the shared maps for this client

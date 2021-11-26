@@ -98,8 +98,8 @@ github.com/pelletier/go-toml
 github.com/peterbourgon/diskv
 # github.com/pkg/errors v0.8.0
 github.com/pkg/errors
-# github.com/sabhiram/go-git-ignore v0.0.0-20171017070213-362f9845770f
-github.com/sabhiram/go-git-ignore
+# github.com/sabhiram/go-gitignore v0.0.0-20171017070213-362f9845770f
+github.com/sabhiram/go-gitignore
 # github.com/satori/go.uuid v1.2.0
 github.com/satori/go.uuid
 # github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4
@@ -117,13 +117,13 @@ github.com/spf13/jwalterweatherman
 github.com/spf13/pflag
 # github.com/spf13/viper v1.0.0
 github.com/spf13/viper
-# github.com/theothertomelliott/gopsutil-nocgo v0.0.0-20170405215031-e1dd81b10a4c
-github.com/theothertomelliott/gopsutil-nocgo/net
-github.com/theothertomelliott/gopsutil-nocgo/process
-github.com/theothertomelliott/gopsutil-nocgo/internal/common
-github.com/theothertomelliott/gopsutil-nocgo/cpu
-github.com/theothertomelliott/gopsutil-nocgo/host
-github.com/theothertomelliott/gopsutil-nocgo/mem
+# https://github.com/shirou/gopsutil v0.0.0-20170405215031-e1dd81b10a4c
+github.com/shirou/gopsutil/net
+github.com/shirou/gopsutil/process
+github.com/shirou/gopsutil/internal/common
+github.com/shirou/gopsutil/cpu
+github.com/shirou/gopsutil/host
+github.com/shirou/gopsutil/mem
 # github.com/theothertomelliott/must v0.0.0-20161223163453-883760f0acf9
 github.com/theothertomelliott/must
 # github.com/theothertomelliott/struct2struct v0.0.0-20180301035006-372ebe1f48e2

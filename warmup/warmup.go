@@ -3,7 +3,7 @@ package warmup
 import (
 	"net/http"
 
-	"github.com/yext/edward/tracker"
+	"github.com/mattevans/edward/tracker"
 )
 
 // Warmup defines an action to take to "warm up" a service after launch

@@ -15,7 +15,7 @@ weight: 10
 Install or update with `go get`:
 
 ```sh
-go get -u github.com/yext/edward
+go get -u github.com/mattevans/edward
 ```
 
 ## Updates

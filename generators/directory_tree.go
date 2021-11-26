@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	ignore "github.com/sabhiram/go-git-ignore"
+	ignore "github.com/sabhiram/go-gitignore"
 )
 
 // directory represents a directory for the purposes of scanning for projects

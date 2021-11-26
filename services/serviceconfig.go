@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/warmup"
+	"github.com/mattevans/edward/warmup"
 )
 
 var _ ServiceOrGroup = &ServiceConfig{}

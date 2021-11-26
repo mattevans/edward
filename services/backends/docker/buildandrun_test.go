@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/docker"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/docker"
 )
 
 func TestMain(m *testing.M) {

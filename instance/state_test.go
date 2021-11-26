@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/theothertomelliott/must"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/services"
 )
 
 func TestSerialization(t *testing.T) {

@@ -2,10 +2,10 @@ package edward
 
 import (
 	"github.com/pkg/errors"
-	"github.com/yext/edward/instance"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
-	"github.com/yext/edward/worker"
+	"github.com/mattevans/edward/instance"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
+	"github.com/mattevans/edward/worker"
 )
 
 func (c *Client) Stop(names []string, force bool, exclude []string, all bool) error {

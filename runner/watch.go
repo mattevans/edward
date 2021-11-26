@@ -5,12 +5,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/yext/edward/home"
+	"github.com/mattevans/edward/home"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/builder"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/tracker"
+	"github.com/mattevans/edward/builder"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/tracker"
 	fsnotify "gopkg.in/fsnotify.v1"
 )
 

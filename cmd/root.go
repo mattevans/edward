@@ -14,13 +14,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/config"
-	"github.com/yext/edward/edward"
-	"github.com/yext/edward/home"
-	"github.com/yext/edward/output"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/updates"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/config"
+	"github.com/mattevans/edward/edward"
+	"github.com/mattevans/edward/home"
+	"github.com/mattevans/edward/output"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/updates"
 )
 
 var cfgFile string
@@ -156,7 +156,7 @@ Build, start and manage service instances with a single command.`,
 			updateAvailable, ok := (<-checkUpdateChan).(bool)
 			if ok && updateAvailable {
 				latestVersion := (<-checkUpdateChan).(string)
-				fmt.Printf("A new version of Edward is available (%v), update with:\n\tgo get -u github.com/yext/edward\n", latestVersion)
+				fmt.Printf("A new version of Edward is available (%v), update with:\n\tgo get -u github.com/mattevans/edward\n", latestVersion)
 			}
 		}
 	},

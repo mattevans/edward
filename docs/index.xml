@@ -7,59 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
-    
+
 	<atom:link href="http://engblog.yext.com/edward/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+
     <item>
       <title>Getting started</title>
       <link>http://engblog.yext.com/edward/installation/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/installation/</guid>
       <description>Requirements  macOS or Linux Go 1.7 or higher Git  Installing Edward Install or update with go get:
-go get -u github.com/yext/edward  Updates Edward will notify you whenever a newer version is available. If there is an update available, the next time you run an Edward command, you will see a message advising you to update.
+go get -u github.com/mattevans/edward  Updates Edward will notify you whenever a newer version is available. If there is an update available, the next time you run an Edward command, you will see a message advising you to update.
 As above, you can update with go get.</description>
     </item>
-    
+
     <item>
       <title>Getting started</title>
       <link>http://engblog.yext.com/edward/quickstart/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/quickstart/</guid>
       <description>Setup Before starting with these instructions, make sure you&amp;rsquo;ve installed Edward.
 To get you started with Edward, we&amp;rsquo;re going to create a few simple services and groups. Our example services will all be written in Go.
 These instructions assume a bash terminal.
 First off, let&amp;rsquo;s create a parent folder for our services. This is where the Edward config file will live. In your GOPATH, create a folder called edward_quickstart:</description>
     </item>
-    
+
     <item>
       <title>Roadmap</title>
       <link>http://engblog.yext.com/edward/roadmap/</link>
       <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/roadmap/</guid>
       <description>Planned Features  Plugins for generators Error counts in status System tray/menu interface Toast notifications  Issues Bugs and planned work are tracked in the Edward GitHub repo under issues.
 Contributing Contributions to Edward are always welcome. Please feel free to raise new issues or submit a pull request.</description>
     </item>
-    
+
     <item>
       <title>License</title>
       <link>http://engblog.yext.com/edward/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/license/</guid>
       <description>The MIT License (MIT)
 Copyright &amp;copy; 2016 Yext
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
     </item>
-    
+
     <item>
       <title>Backends (experimental)</title>
       <link>http://engblog.yext.com/edward/backends/</link>
       <pubDate>Wed, 01 Feb 2017 17:24:55 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/backends/</guid>
       <description>Docker 1.8.9 introduces an experimental new feature: Backends. A backend provides the functionality to build and run services on a particular platform. A single service may specify multiple backends to be used in different situations.
 Edward has built-in backends for the command line and Docker.
@@ -67,74 +67,74 @@ Experimental feature
 Backends are an experimental feature, and may be subject to breaking changes between releases of Edward.
  Configuration Backends are specified in an array under a service definition.</description>
     </item>
-    
+
     <item>
       <title>Commands</title>
       <link>http://engblog.yext.com/edward/commands/</link>
       <pubDate>Wed, 01 Feb 2017 17:24:55 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/commands/</guid>
       <description>Edward provides a series of commands to manage your local services, which are called using the form:
 $ edward [command]  You may have discovered some of these already in the Quickstart, but they are outlined in more detail here.
 List The list command outputs a list of all the services and groups that are defined in the current edward.json. It takes no arguments.
 Groups are listed first, followed by services.</description>
     </item>
-    
+
     <item>
       <title>Project Configuration</title>
       <link>http://engblog.yext.com/edward/projectconfig/</link>
       <pubDate>Wed, 01 Feb 2017 17:24:55 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/projectconfig/</guid>
       <description>edward.json The edward.json file defines the services and groups that can be managed by Edward.
 Edward will look for an edward.json file in the current working directory, and if not found there, it will look for edward.json in every parent directory to the root.
 If no config file can be found, Edward will exit with an error and print usage information.
 You can override this behavior with the --config or -c flag:</description>
     </item>
-    
+
     <item>
       <title>Autocompletion</title>
       <link>http://engblog.yext.com/edward/autocompletion/</link>
       <pubDate>Sun, 15 Jan 2017 22:29:28 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/autocompletion/</guid>
       <description>To enable bash autocompletion, create a file with the following:
 #! /bin/bash : ${PROG:=$(basename ${BASH_SOURCE})} _cli_bash_autocomplete() { local cur opts base COMPREPLY=() cur=&amp;quot;${COMP_WORDS[COMP_CWORD]}&amp;quot; opts=$( ${COMP_WORDS[@]:0:$COMP_CWORD} --generate-bash-completion ) local w matches=() local nocasematchWasOff=0 shopt nocasematch &amp;gt;/dev/null || nocasematchWasOff=1 (( nocasematchWasOff )) &amp;amp;&amp;amp; shopt -s nocasematch for w in $opts; do if [[ &amp;quot;$w&amp;quot; == &amp;quot;$cur&amp;quot;* ]]; then matches+=(&amp;quot;$w&amp;quot;); fi done (( nocasematchWasOff )) &amp;amp;&amp;amp; shopt -u nocasematch COMPREPLY=(&amp;quot;${matches[@]}&amp;quot;) return 0 } complete -F _cli_bash_autocomplete $PROG  Then source it from your bash profile</description>
     </item>
-    
+
     <item>
       <title>Sudo</title>
       <link>http://engblog.yext.com/edward/sudo/</link>
       <pubDate>Sun, 15 Jan 2017 22:16:39 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/sudo/</guid>
       <description>Edward will not run if you try to launch it with sudo, but it may ask you to provide your password so that certain services can be run with elevated priviledges. The password request is triggered through a bash script that calls a command with sudo, to ensure that your bash session can make further sudo calls without prompting.
 This has only been tested in one bash environment, so your mileage may vary.</description>
     </item>
-    
+
     <item>
       <title>Telemetry</title>
       <link>http://engblog.yext.com/edward/telemetry/</link>
       <pubDate>Sun, 15 Jan 2017 22:16:39 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/telemetry/</guid>
       <description>Edward allows you to specify a script to trigger telemetry events with the telemetry provider of your choice.
 Specify your script at the root of your edward.json file:
 { &amp;quot;telemetryScript&amp;quot;: &amp;quot;myScript.sh&amp;quot;, &amp;quot;imports&amp;quot;: ..., &amp;quot;groups&amp;quot;: ..., &amp;quot;services&amp;quot;: ... }  Currently, this script is run in the background whenever edward start is run. The script will be run with parameters of the form &amp;lt;command&amp;gt; [services/groups].
 So if you run against the above edward.</description>
     </item>
-    
+
     <item>
       <title>Troubleshooting</title>
       <link>http://engblog.yext.com/edward/troubleshooting/</link>
       <pubDate>Sun, 15 Jan 2017 22:16:39 -0500</pubDate>
-      
+
       <guid>http://engblog.yext.com/edward/troubleshooting/</guid>
       <description>Services can&amp;rsquo;t be started or stopped after upgrading After upgrading Edward, if you experience problems stopping or starting services, this may be a result of corrupted state files.
 Steps to reset state:
  Restart your computer Ensure there are no services running under Edward Delete the Edward home directory: rm ~/.edward  This will completely reset Edward to a clean state.
 Orphaned services running after upgrade or crash After an upgrade or if Edward exits unexpectedly while starting/stopping services, you may find that you have orphaned services running in the background.</description>
     </item>
-    
+
   </channel>
 </rss>

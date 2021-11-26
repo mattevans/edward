@@ -7,8 +7,8 @@ import (
 	"regexp"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/commandline"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/commandline"
 )
 
 // IcbmGenerator generates services from an icbm build.spec file

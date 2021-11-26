@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 type loaderProto struct {

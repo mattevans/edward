@@ -1,6 +1,6 @@
 package terminal
 
-import "github.com/yext/edward/services"
+import "github.com/mattevans/edward/services"
 
 func (p *Provider) List(services []services.ServiceOrGroup, groups []services.ServiceOrGroup) {
 	p.Infof("Services and groups")

@@ -13,8 +13,8 @@ weight: 30
 
 ## Issues
 
-Bugs and planned work are tracked in the Edward GitHub repo under [issues](https://github.com/yext/edward/issues).
+Bugs and planned work are tracked in the Edward GitHub repo under [issues](https://github.com/mattevans/edward/issues).
 
 ## Contributing
 
-Contributions to Edward are always welcome. Please feel free to raise new [issues](https://github.com/yext/edward/issues) or submit a [pull request](https://github.com/yext/edward/pulls).
+Contributions to Edward are always welcome. Please feel free to raise new [issues](https://github.com/mattevans/edward/issues) or submit a [pull request](https://github.com/mattevans/edward/pulls).

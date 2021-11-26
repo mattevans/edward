@@ -8,8 +8,8 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/olekukonko/tablewriter"
-	"github.com/theothertomelliott/gopsutil-nocgo/process"
-	"github.com/yext/edward/ui"
+	"github.com/shirou/gopsutil/process"
+	"github.com/mattevans/edward/ui"
 )
 
 func (p *Provider) Status(statuses []ui.ServiceStatus) {

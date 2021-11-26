@@ -11,7 +11,7 @@ import (
 	"syscall"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 func checkNotSudo() error {

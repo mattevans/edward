@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/theothertomelliott/gopsutil-nocgo/process"
-	"github.com/yext/edward/services"
+	"github.com/shirou/gopsutil/process"
+	"github.com/mattevans/edward/services"
 )
 
 type State string

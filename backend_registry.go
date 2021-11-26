@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/commandline"
-	"github.com/yext/edward/services/backends/docker"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/commandline"
+	"github.com/mattevans/edward/services/backends/docker"
 )
 
 // RegisterBackends configures all supported service backends.

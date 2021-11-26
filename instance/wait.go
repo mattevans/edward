@@ -5,11 +5,11 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/yext/edward/home"
+	"github.com/mattevans/edward/home"
 
 	"github.com/pkg/errors"
-	"github.com/theothertomelliott/gopsutil-nocgo/net"
-	"github.com/yext/edward/services"
+	"github.com/shirou/gopsutil/net"
+	"github.com/mattevans/edward/services"
 )
 
 // WaitUntilRunning will block the specified service until it enters the running state

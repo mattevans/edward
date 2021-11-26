@@ -1,7 +1,7 @@
 package fake
 
 import (
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 var _ services.Backend = &Backend{}

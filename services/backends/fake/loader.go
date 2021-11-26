@@ -3,7 +3,7 @@ package fake
 import (
 	"io"
 
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 type Loader struct {

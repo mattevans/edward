@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/yext/edward/instance/servicelogs"
+	"github.com/mattevans/edward/instance/servicelogs"
 )
 
 func (p *Provider) ShowLog(logs <-chan servicelogs.LogLine, multiple bool) {

@@ -3,7 +3,7 @@ package docker
 import (
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/services"
 )
 
 type Loader struct {

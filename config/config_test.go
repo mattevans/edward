@@ -8,9 +8,9 @@ import (
 
 	must "github.com/theothertomelliott/must"
 
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/services"
-	"github.com/yext/edward/services/backends/commandline"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/services"
+	"github.com/mattevans/edward/services/backends/commandline"
 )
 
 func TestMain(m *testing.M) {

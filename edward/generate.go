@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/yext/edward/common"
-	"github.com/yext/edward/config"
-	"github.com/yext/edward/generators"
-	"github.com/yext/edward/services"
+	"github.com/mattevans/edward/common"
+	"github.com/mattevans/edward/config"
+	"github.com/mattevans/edward/generators"
+	"github.com/mattevans/edward/services"
 )
 
 func (c *Client) Generate(names []string, force bool, group string, targets []string) error {

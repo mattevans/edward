@@ -1,6 +1,6 @@
 package generators
 
-import "github.com/yext/edward/services"
+import "github.com/mattevans/edward/services"
 
 // Generator provides an interface to identify a generator and perform a directory walk
 // to find projects for configuration.
